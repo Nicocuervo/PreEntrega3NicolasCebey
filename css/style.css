@@ -230,10 +230,7 @@ form .form-control {
  /* Fondo de pagina Expo */
 #pageexpo,
 #pageimpo {
-  background: url(../img/5.png);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
+  background-color: #02132b;
 }
 
 #impo, #expo {
