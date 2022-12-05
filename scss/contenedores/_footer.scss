@@ -1,0 +1,24 @@
+/*Estilos de Footer */
+ #main-footer {
+    padding: 10px;
+    height: 12vh;
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    background-color: #02132b;
+    div{
+        a{  
+            margin-top: 10px;
+            padding: 20px;
+            text-decoration: none;
+            img{
+                width: 3rem;
+            }
+        }
+    }
+    h4{
+        margin-top: 10px ;
+        color: whitesmoke;
+        font-size: 0.8rem;
+      }
+  }
