@@ -130,6 +130,7 @@ body {
                 }
                 .webdev-row{
                     @include webdev-row;
+                    justify-content: center;
 
                     .webdev-box{
                         @include webdev-box;
@@ -149,10 +150,9 @@ body {
                     .display-1{
                         @include display-1;
                         text-transform: uppercase;
-                        
                     }
                     p{
-                        
+                       
                         align-self: center;
                         color: $color-letra-claro;
                         text-align: justify;

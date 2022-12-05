@@ -138,7 +138,8 @@ body {
         display: flex;
         grid-gap: 2rem;
         margin-bottom: 20px;
-        margin-top: 1rem; }
+        margin-top: 1rem;
+        justify-content: center; }
         body main #impo .container .webdev-row .webdev-box, body main #expo .container .webdev-row .webdev-box {
           padding: 40px;
           background: #fff;
