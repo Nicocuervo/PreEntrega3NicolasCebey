@@ -49,6 +49,17 @@
                 padding: 40px 0;
                 .webdev-row {
                     flex-wrap: wrap;
+                    #carouselExampleDark{
+                        .carousel-inner{
+                            .carousel-item{
+                                img{
+                                    size-adjust: 100px
+                                };
+                                
+                            }
+                        }
+                    }
+
                 }
             }
             #expo{

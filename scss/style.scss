@@ -77,20 +77,25 @@ body {
         
         #intro-servicio{
             color: $color-letra-claro;
-            background-color: $color-fondo;
             text-align: center;
             background-image: url(../img/5.png);
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
             height: 40rem;
             display: flex;
             .container{
                 @include container;
-                .display-2{
-                font-size: 4.3rem; 
+                background-color: rgba(255,255,255, 0.6);
+                .display-1{
+                color: $color-letra-oscuro;
+                font-size: 3.4rem; 
                 }
                 .large{
-                @include large
+                @include large;
+                color: $color-letra-oscuro;
+                text-transform: capitalize;
+                
                 }
             }
         }
@@ -102,14 +107,19 @@ body {
                 @include container2;
                 div{
                     margin: 20px;
-                    max-width: 800px;
+                    max-width: 600px;
                     overflow: auto;
                     padding:10 20px;
                     text-align: justify;  
                 }
-                img{
-                    max-width: 100%;
+                div{
+
+                    align-self: center;
+                    img{
+                        max-width: 100%;
+                    }
                 }
+                
             }
         }
         #impo, #expo{
@@ -128,6 +138,18 @@ body {
                     margin: 0 auto;
                     color: $color-letra-claro
                 }
+                #carouselExampleDark{
+                    .carousel-inner{
+                        .carousel-item{
+                            .carousel-caption{
+                                background-color: rgba(255,255,255, 0.6);
+                                color: $color-letra-oscuro;
+                               
+                            }
+                            
+                        }
+                    }
+                }
                 .webdev-row{
                     @include webdev-row;
                     justify-content: center;
@@ -140,6 +162,7 @@ body {
                        
                     }
                 }
+                
            }
         }
         #showcase-logi{

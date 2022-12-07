@@ -81,25 +81,29 @@ body {
         color: #45BCE9; }
   body main #intro-servicio {
     color: #e2e3e4;
-    background-color: #02132b;
     text-align: center;
     background-image: url(../img/5.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 40rem;
     display: flex; }
     body main #intro-servicio .container {
       margin: auto;
       max-width: 1200px;
       overflow: auto;
-      padding: 10px 20px; }
-      body main #intro-servicio .container .display-2 {
-        font-size: 4.3rem; }
+      padding: 10px 20px;
+      background-color: rgba(255, 255, 255, 0.6); }
+      body main #intro-servicio .container .display-1 {
+        color: #0d0d0e;
+        font-size: 3.4rem; }
       body main #intro-servicio .container .large {
         font-size: 1.25rem;
         padding: 2.5px;
         text-align: center;
-        color: whitesmoke; }
+        color: whitesmoke;
+        color: #0d0d0e;
+        text-transform: capitalize; }
   body main #quienes-somos {
     margin-top: 2rem;
     color: #e2e3e4;
@@ -111,12 +115,14 @@ body {
       flex-wrap: wrap; }
       body main #quienes-somos .container2 div {
         margin: 20px;
-        max-width: 800px;
+        max-width: 600px;
         overflow: auto;
         padding: 10 20px;
         text-align: justify; }
-      body main #quienes-somos .container2 img {
-        max-width: 100%; }
+      body main #quienes-somos .container2 div {
+        align-self: center; }
+        body main #quienes-somos .container2 div img {
+          max-width: 100%; }
   body main #impo, body main #expo {
     padding: 80px 0;
     text-align: center; }
@@ -134,6 +140,9 @@ body {
         text-align: center;
         margin: 0 auto;
         color: #e2e3e4; }
+      body main #impo .container #carouselExampleDark .carousel-inner .carousel-item .carousel-caption, body main #expo .container #carouselExampleDark .carousel-inner .carousel-item .carousel-caption {
+        background-color: rgba(255, 255, 255, 0.6);
+        color: #0d0d0e; }
       body main #impo .container .webdev-row, body main #expo .container .webdev-row {
         display: flex;
         grid-gap: 2rem;
@@ -284,6 +293,8 @@ body {
     padding: 40px 0; }
     body main #impo .webdev-row {
       flex-wrap: wrap; }
+      body main #impo .webdev-row #carouselExampleDark .carousel-inner .carousel-item img {
+        size-adjust: 100px; }
   body main #expo {
     padding: 40px 0; }
     body main #expo .webdev-row {
