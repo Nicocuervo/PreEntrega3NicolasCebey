@@ -81,7 +81,6 @@ body {
             background-image: url(../img/5.png);
             background-repeat: no-repeat;
             background-size: cover;
-            background-attachment: fixed;
             height: 40rem;
             display: flex;
             .container{
@@ -90,6 +89,7 @@ body {
                 .display-1{
                 color: $color-letra-oscuro;
                 font-size: 3.4rem; 
+                margin-top: 1rem;
                 }
                 .large{
                 @include large;
@@ -144,9 +144,7 @@ body {
                             .carousel-caption{
                                 background-color: rgba(255,255,255, 0.6);
                                 color: $color-letra-oscuro;
-                               
                             }
-                            
                         }
                     }
                 }
