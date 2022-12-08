@@ -110,9 +110,16 @@ body {
                 div{
                     margin: 20px;
                     max-width: 600px;
-                    overflow: auto;
-                    padding:10 20px;
-                    text-align: justify;  
+                    text-align: justify;
+                    .nav{ 
+                        a{  
+                            color: #2096cc;
+                        }
+                        .active{
+                                background-color: #2096cc;
+                                color: whitesmoke;
+                            }
+                        }
                 }
                 div{
 
@@ -121,7 +128,6 @@ body {
                         max-width: 100%;
                     }
                 }
-             
             }
         }
         #impo, #expo{
