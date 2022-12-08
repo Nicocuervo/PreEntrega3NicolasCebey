@@ -30,7 +30,6 @@ body #encabezado .container, body main #intro-servicio .container, body main #im
   padding: 10px 20px; }
 
 body main #quienes-somos .container2 {
-  padding: 20px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap; }
@@ -112,7 +111,7 @@ body {
     color: #e2e3e4;
     background-color: #02132b; }
     body main #quienes-somos .container2 div {
-      margin: 20px;
+      margin: 10px;
       max-width: 600px;
       text-align: justify; }
       body main #quienes-somos .container2 div .nav a {

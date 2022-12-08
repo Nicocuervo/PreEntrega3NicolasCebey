@@ -106,9 +106,9 @@ body {
             color: $color-letra-claro;
             background-color: $color-fondo;
             .container2{
-                @extend %container2;
+                @extend %container3;
                 div{
-                    margin: 20px;
+                    margin: 10px;
                     max-width: 600px;
                     text-align: justify;
                     .nav{ 
