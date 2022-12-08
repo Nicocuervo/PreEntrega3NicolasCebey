@@ -10,6 +10,7 @@
 @import "contenedores/footer";
 @import "utilidades/variables";
 @import "utilidades/mixin";
+@import "utilidades/extend";
 
 
 /* Estilo del Body */
@@ -49,9 +50,10 @@ body {
         background-position: left;
         text-align: center;
         .container{
-            @include container;
+            @extend %container;
             .display-1{
                 @include display-1;
+                
             }
             .large{
                 @include large;
@@ -84,7 +86,7 @@ body {
             height: 40rem;
             display: flex;
             .container{
-                @include container;
+                @extend %container;
                 background-color: rgba(255,255,255, 0.6);
                 .display-1{
                 color: $color-letra-oscuro;
@@ -104,7 +106,7 @@ body {
             color: $color-letra-claro;
             background-color: $color-fondo;
             .container2{
-                @include container2;
+                @extend %container2;
                 div{
                     margin: 20px;
                     max-width: 600px;
@@ -119,14 +121,14 @@ body {
                         max-width: 100%;
                     }
                 }
-                
+             
             }
         }
         #impo, #expo{
             padding: 80px 0;
             text-align: center;
             .container{
-                @include container;
+                @extend %container;
                 .display-1{
                     text-align: center;
                     color: $color-letra-claro
@@ -296,7 +298,9 @@ body {
     }
 }
 
-@import "contenedores/media-qry";    
+@import "contenedores/media-qry-tablet"; 
+@import "contenedores/media-qry-mobile";
+@import "contenedores/media-qry-mod";   
         
 
           

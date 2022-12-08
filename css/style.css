@@ -23,6 +23,18 @@
     color: whitesmoke;
     font-size: 0.8rem; }
 
+body #encabezado .container, body main #intro-servicio .container, body main #impo .container, body main #expo .container {
+  margin: auto;
+  max-width: 1200px;
+  overflow: auto;
+  padding: 10px 20px; }
+
+body main #quienes-somos .container2 {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
 /* Estilo del Body */
 body {
   background-color: #02132b;
@@ -47,38 +59,33 @@ body {
     background-size: cover;
     background-position: left;
     text-align: center; }
-    body #encabezado .container {
-      margin: auto;
-      max-width: 1200px;
-      overflow: auto;
-      padding: 10px 20px; }
-      body #encabezado .container .display-1 {
-        text-transform: uppercase;
-        padding: 4rem;
-        text-align: center;
-        color: whitesmoke; }
-      body #encabezado .container .large {
-        font-size: 1.25rem;
-        padding: 2.5px;
-        text-align: center;
-        color: whitesmoke; }
-      body #encabezado .container .btn {
-        display: inline-block;
-        font-size: 15px;
-        padding: 15px 50px;
-        cursor: pointer;
-        font-weight: bold;
-        letter-spacing: 1px;
-        border-radius: 30px;
-        margin-top: 50px; }
-      body #encabezado .container .btn-light {
-        background: #45BCE9;
-        border: 1px solid #fff;
-        color: #fff; }
-      body #encabezado .container .btn-light:hover {
-        background: #fff;
-        border: 1px solid #45BCE9;
-        color: #45BCE9; }
+    body #encabezado .container .display-1 {
+      text-transform: uppercase;
+      padding: 4rem;
+      text-align: center;
+      color: whitesmoke; }
+    body #encabezado .container .large {
+      font-size: 1.25rem;
+      padding: 2.5px;
+      text-align: center;
+      color: whitesmoke; }
+    body #encabezado .container .btn {
+      display: inline-block;
+      font-size: 15px;
+      padding: 15px 50px;
+      cursor: pointer;
+      font-weight: bold;
+      letter-spacing: 1px;
+      border-radius: 30px;
+      margin-top: 50px; }
+    body #encabezado .container .btn-light {
+      background: #45BCE9;
+      border: 1px solid #fff;
+      color: #fff; }
+    body #encabezado .container .btn-light:hover {
+      background: #fff;
+      border: 1px solid #45BCE9;
+      color: #45BCE9; }
   body main #intro-servicio {
     color: #e2e3e4;
     text-align: center;
@@ -88,10 +95,6 @@ body {
     height: 40rem;
     display: flex; }
     body main #intro-servicio .container {
-      margin: auto;
-      max-width: 1200px;
-      overflow: auto;
-      padding: 10px 20px;
       background-color: rgba(255, 255, 255, 0.6); }
       body main #intro-servicio .container .display-1 {
         color: #0d0d0e;
@@ -108,56 +111,46 @@ body {
     margin-top: 2rem;
     color: #e2e3e4;
     background-color: #02132b; }
-    body main #quienes-somos .container2 {
-      padding: 20px;
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap; }
-      body main #quienes-somos .container2 div {
-        margin: 20px;
-        max-width: 600px;
-        overflow: auto;
-        padding: 10 20px;
-        text-align: justify; }
-      body main #quienes-somos .container2 div {
-        align-self: center; }
-        body main #quienes-somos .container2 div img {
-          max-width: 100%; }
+    body main #quienes-somos .container2 div {
+      margin: 20px;
+      max-width: 600px;
+      overflow: auto;
+      padding: 10 20px;
+      text-align: justify; }
+    body main #quienes-somos .container2 div {
+      align-self: center; }
+      body main #quienes-somos .container2 div img {
+        max-width: 100%; }
   body main #impo, body main #expo {
     padding: 80px 0;
     text-align: center; }
-    body main #impo .container, body main #expo .container {
-      margin: auto;
-      max-width: 1200px;
-      overflow: auto;
-      padding: 10px 20px; }
-      body main #impo .container .display-1, body main #expo .container .display-1 {
-        text-align: center;
-        color: #e2e3e4; }
-      body main #impo .container .display-1-text, body main #expo .container .display-1-text {
-        padding: 20px 0 60px 0;
-        width: 80%;
-        text-align: center;
-        margin: 0 auto;
-        color: #e2e3e4; }
-      body main #impo .container #carouselExampleDark .carousel-inner .carousel-item .carousel-caption, body main #expo .container #carouselExampleDark .carousel-inner .carousel-item .carousel-caption {
-        background-color: rgba(255, 255, 255, 0.6);
-        color: #0d0d0e; }
-      body main #impo .container .webdev-row, body main #expo .container .webdev-row {
-        display: flex;
-        grid-gap: 2rem;
-        margin-bottom: 20px;
-        margin-top: 1rem;
-        justify-content: center; }
-        body main #impo .container .webdev-row .webdev-box, body main #expo .container .webdev-row .webdev-box {
-          padding: 40px;
-          background: #fff;
-          width: 34rem; }
-          body main #impo .container .webdev-row .webdev-box hr, body main #expo .container .webdev-row .webdev-box hr {
-            background-color: #45BCE9;
-            height: 5px;
-            border: none;
-            width: 20%; }
+    body main #impo .container .display-1, body main #expo .container .display-1 {
+      text-align: center;
+      color: #e2e3e4; }
+    body main #impo .container .display-1-text, body main #expo .container .display-1-text {
+      padding: 20px 0 60px 0;
+      width: 80%;
+      text-align: center;
+      margin: 0 auto;
+      color: #e2e3e4; }
+    body main #impo .container #carouselExampleDark .carousel-inner .carousel-item .carousel-caption, body main #expo .container #carouselExampleDark .carousel-inner .carousel-item .carousel-caption {
+      background-color: rgba(255, 255, 255, 0.6);
+      color: #0d0d0e; }
+    body main #impo .container .webdev-row, body main #expo .container .webdev-row {
+      display: flex;
+      grid-gap: 2rem;
+      margin-bottom: 20px;
+      margin-top: 1rem;
+      justify-content: center; }
+      body main #impo .container .webdev-row .webdev-box, body main #expo .container .webdev-row .webdev-box {
+        padding: 40px;
+        background: #fff;
+        width: 34rem; }
+        body main #impo .container .webdev-row .webdev-box hr, body main #expo .container .webdev-row .webdev-box hr {
+          background-color: #45BCE9;
+          height: 5px;
+          border: none;
+          width: 20%; }
   body main #showcase-logi {
     padding: 80px 0; }
     body main #showcase-logi .container .showcase-flex-logi {
@@ -263,8 +256,57 @@ body {
         border: 1px solid #45BCE9;
         color: #45BCE9; }
 
-/*Media Qry para dispositivos moviles */
+/*Media Qry para tablets */
 @media (max-width: 768px) {
+  body header .navbar .cont-nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2rem; }
+  body header .navbar a {
+    padding-top: 10px; }
+  body header button {
+    background-color: #45BCE9; }
+  body #encabezado {
+    background: url("../img/3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    text-align: center; }
+    body #encabezado .container .display-1 {
+      text-align: center;
+      padding: 5px;
+      padding-top: 4px;
+      font-size: 2.2rem; }
+    body #encabezado .container p {
+      padding: 5px; }
+  body main #intro-servicio .container .large {
+    font-size: 1rem; }
+  body main #impo {
+    padding: 40px 0; }
+    body main #impo .webdev-row {
+      flex-wrap: wrap; }
+      body main #impo .webdev-row #carouselExampleDark .carousel-inner .carousel-item img {
+        size-adjust: 100px; }
+  body main #expo {
+    padding: 40px 0; }
+    body main #expo .webdev-row {
+      flex-wrap: wrap; }
+  body main #showcase-logi {
+    padding: 30px 0;
+    text-align: center; }
+    body main #showcase-logi .container .showcase-flex-logi {
+      flex-direction: column; }
+  body main #contact .container {
+    height: 100%;
+    padding: 50px 20px 50px 20px; }
+    body main #contact .container h1 {
+      padding-bottom: 3rem; }
+    body main #contact .container form {
+      width: 80%;
+      padding-bottom: 2.5rem; } }
+
+@media (max-width: 576px) {
   body header .navbar .cont-nav {
     display: flex;
     flex-direction: column;
@@ -325,4 +367,29 @@ body {
       padding-bottom: 3rem; }
     body main #contact .container form {
       width: 100%;
+      padding-bottom: 2.5rem; } }
+
+/*Media Qry para tablets */
+@media (max-width: 991px) {
+  body header .navbar .cont-nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2rem; }
+  body header .navbar a {
+    padding-top: 10px; }
+  body header button {
+    background-color: #45BCE9; }
+  body main #showcase-logi {
+    padding: 30px 0;
+    text-align: center; }
+    body main #showcase-logi .container .showcase-flex-logi {
+      flex-direction: column; }
+  body main #contact .container {
+    height: 100%;
+    padding: 50px 20px 50px 20px; }
+    body main #contact .container h1 {
+      padding-bottom: 3rem; }
+    body main #contact .container form {
+      width: 80%;
       padding-bottom: 2.5rem; } }

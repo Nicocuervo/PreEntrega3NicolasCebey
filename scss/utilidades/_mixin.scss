@@ -1,10 +1,3 @@
-@mixin container {
-    margin: auto;
-    max-width: 1200px;
-    overflow: auto;
-    padding: 10px 20px;
-}
-
 @mixin btn {
     display: inline-block;
     font-size: 15px;
@@ -44,13 +37,7 @@
     
 }
 
-@mixin container2 {
-    padding:20px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-    
+
 @mixin webdev-row {
     display: flex;
     grid-gap: 2rem;
