@@ -42,7 +42,7 @@ body {
             }
         }
     }
-    /*Encabezado*/
+    /*Encabezado Pagina Principal*/
     #encabezado {
         background: url('../img/3.png');
         background-repeat: no-repeat;
@@ -76,7 +76,7 @@ body {
     }
     
     main{
-        
+        /*Primera Seccion Pagina Principal */
         #intro-servicio{
             color: $color-letra-claro;
             text-align: center;
@@ -101,6 +101,7 @@ body {
                 }
             }
         }
+        /*Segunda Seccion Pagina Principal */
         #quienes-somos{
             margin-top: 2rem;
             color: $color-letra-claro;
@@ -130,6 +131,8 @@ body {
                 }
             }
         }
+
+        /*Estilos de Paginas Impo y Expo */
         #impo, #expo{
             padding: 80px 0;
             text-align: center;
@@ -171,6 +174,7 @@ body {
                 
            }
         }
+        /*Estilos de Pagina Logistica*/
         #showcase-logi{
             padding: 80px 0;
             .container{
@@ -190,7 +194,7 @@ body {
                 }
             }
         }
-
+         /*Estilo con GRID Pagina Logistica*/    
         #logis{
             padding: 80px 0;
             .container{
@@ -257,6 +261,7 @@ body {
                                
             }
         }
+        /*Estilos Pagina Contacto*/
         #contact{
             padding-top: 50px;
             margin-bottom: 30px;
@@ -304,6 +309,7 @@ body {
     }
 }
 
+/*Media Querys*/
 @import "contenedores/media-qry-tablet"; 
 @import "contenedores/media-qry-mobile";
 @import "contenedores/media-qry-mod";   

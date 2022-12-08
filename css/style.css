@@ -39,7 +39,7 @@ body {
   background-color: #02132b;
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-family: 'Readex Pro', sans-serif;
-  /*Encabezado*/ }
+  /*Encabezado Pagina Principal*/ }
   body header .navbar-ajust .cont-nav {
     width: 50rem;
     display: flex;
@@ -85,179 +85,187 @@ body {
       background: #fff;
       border: 1px solid #45BCE9;
       color: #45BCE9; }
-  body main #intro-servicio {
-    color: #e2e3e4;
-    text-align: center;
-    background-image: url(../img/5.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40rem;
-    display: flex; }
-    body main #intro-servicio .container {
-      background-color: rgba(255, 255, 255, 0.6); }
-      body main #intro-servicio .container .display-1 {
-        color: #0d0d0e;
-        font-size: 3.4rem;
-        margin-top: 1rem; }
-      body main #intro-servicio .container .large {
-        font-size: 1.25rem;
-        padding: 2.5px;
-        text-align: center;
-        color: whitesmoke;
-        color: #0d0d0e;
-        text-transform: capitalize; }
-  body main #quienes-somos {
-    margin-top: 2rem;
-    color: #e2e3e4;
-    background-color: #02132b; }
-    body main #quienes-somos .container2 div {
-      margin: 10px;
-      max-width: 600px;
-      text-align: justify; }
-      body main #quienes-somos .container2 div .nav a {
-        color: #2096cc; }
-      body main #quienes-somos .container2 div .nav .active {
-        background-color: #2096cc;
-        color: whitesmoke; }
-    body main #quienes-somos .container2 div {
-      align-self: center; }
-      body main #quienes-somos .container2 div img {
-        max-width: 100%; }
-  body main #impo, body main #expo {
-    padding: 80px 0;
-    text-align: center; }
-    body main #impo .container .display-1, body main #expo .container .display-1 {
+  body main {
+    /*Primera Seccion Pagina Principal */
+    /*Segunda Seccion Pagina Principal */
+    /*Estilos de Paginas Impo y Expo */
+    /*Estilos de Pagina Logistica*/
+    /*Estilo con GRID Pagina Logistica*/
+    /*Estilos Pagina Contacto*/ }
+    body main #intro-servicio {
+      color: #e2e3e4;
       text-align: center;
-      color: #e2e3e4; }
-    body main #impo .container .display-1-text, body main #expo .container .display-1-text {
-      padding: 20px 0 60px 0;
-      width: 80%;
-      text-align: center;
-      margin: 0 auto;
-      color: #e2e3e4; }
-    body main #impo .container #carouselExampleDark .carousel-inner .carousel-item .carousel-caption, body main #expo .container #carouselExampleDark .carousel-inner .carousel-item .carousel-caption {
-      background-color: rgba(255, 255, 255, 0.6);
-      color: #0d0d0e; }
-    body main #impo .container .webdev-row, body main #expo .container .webdev-row {
-      display: flex;
-      grid-gap: 2rem;
-      margin-bottom: 20px;
-      margin-top: 1rem;
-      justify-content: center; }
-      body main #impo .container .webdev-row .webdev-box, body main #expo .container .webdev-row .webdev-box {
-        padding: 40px;
-        background: #fff;
-        width: 34rem; }
-        body main #impo .container .webdev-row .webdev-box hr, body main #expo .container .webdev-row .webdev-box hr {
-          background-color: #45BCE9;
-          height: 5px;
-          border: none;
-          width: 20%; }
-  body main #showcase-logi {
-    padding: 80px 0; }
-    body main #showcase-logi .container .showcase-flex-logi {
+      background-image: url(../img/5.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40rem;
       display: flex; }
-      body main #showcase-logi .container .showcase-flex-logi .display-1 {
-        text-transform: uppercase;
-        padding: 4rem;
-        text-align: center;
-        color: whitesmoke;
-        text-transform: uppercase; }
-      body main #showcase-logi .container .showcase-flex-logi p {
-        align-self: center;
-        color: #e2e3e4;
+      body main #intro-servicio .container {
+        background-color: rgba(255, 255, 255, 0.6); }
+        body main #intro-servicio .container .display-1 {
+          color: #0d0d0e;
+          font-size: 3.4rem;
+          margin-top: 1rem; }
+        body main #intro-servicio .container .large {
+          font-size: 1.25rem;
+          padding: 2.5px;
+          text-align: center;
+          color: whitesmoke;
+          color: #0d0d0e;
+          text-transform: capitalize; }
+    body main #quienes-somos {
+      margin-top: 2rem;
+      color: #e2e3e4;
+      background-color: #02132b; }
+      body main #quienes-somos .container2 div {
+        margin: 10px;
+        max-width: 600px;
         text-align: justify; }
-  body main #logis {
-    padding: 80px 0; }
-    body main #logis .container .wrapper {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 10px; }
-      body main #logis .container .wrapper .box-1 {
-        padding: 20px;
-        grid-column: 1/2;
-        grid-row: 1/3;
-        padding: 40px; }
-        body main #logis .container .wrapper .box-1 .display-3 {
-          font-size: 2.5rem; }
-      body main #logis .container .wrapper .bk-azulfuerte {
-        background: whitesmoke;
-        color: #0d0d0e; }
-      body main #logis .container .wrapper .box-2 {
-        padding: 20px;
-        grid-column: 2/6;
-        grid-row: 1/3;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center; }
-        body main #logis .container .wrapper .box-2 .display-3 {
-          font-size: 2.5rem; }
-        body main #logis .container .wrapper .box-2 img {
+        body main #quienes-somos .container2 div .nav a {
+          color: #2096cc; }
+        body main #quienes-somos .container2 div .nav .active {
+          background-color: #2096cc;
+          color: whitesmoke; }
+      body main #quienes-somos .container2 div {
+        align-self: center; }
+        body main #quienes-somos .container2 div img {
           max-width: 100%; }
-      body main #logis .container .wrapper .bk-celeste {
-        background: #2096cc;
-        color: #fff; }
-      body main #logis .container .wrapper .box-3 {
-        padding: 20px;
-        grid-column: 1/4;
-        grid-row: 3/4; }
-        body main #logis .container .wrapper .box-3 .display-3 {
-          font-size: 2.5rem; }
-      body main #logis .container .wrapper .bk-marron {
-        background: tomato; }
-      body main #logis .container .wrapper .box-4 {
-        padding: 20px;
-        grid-column: 4/6;
-        grid-row: 3/4; }
-        body main #logis .container .wrapper .box-4 .display-3 {
-          font-size: 2.5rem; }
-      body main #logis .container .wrapper .bk-green {
-        background: teal;
-        color: #fff; }
-  body main #contact {
-    padding-top: 50px;
-    margin-bottom: 30px;
-    text-align: center;
-    color: #e2e3e4; }
-    body main #contact .container form {
-      width: 40%;
-      margin: 0 auto;
-      text-align: left; }
-      body main #contact .container form .form-group {
-        margin-bottom: 1rem; }
-        body main #contact .container form .form-group label {
+    body main #impo, body main #expo {
+      padding: 80px 0;
+      text-align: center; }
+      body main #impo .container .display-1, body main #expo .container .display-1 {
+        text-align: center;
+        color: #e2e3e4; }
+      body main #impo .container .display-1-text, body main #expo .container .display-1-text {
+        padding: 20px 0 60px 0;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        color: #e2e3e4; }
+      body main #impo .container #carouselExampleDark .carousel-inner .carousel-item .carousel-caption, body main #expo .container #carouselExampleDark .carousel-inner .carousel-item .carousel-caption {
+        background-color: rgba(255, 255, 255, 0.6);
+        color: #0d0d0e; }
+      body main #impo .container .webdev-row, body main #expo .container .webdev-row {
+        display: flex;
+        grid-gap: 2rem;
+        margin-bottom: 20px;
+        margin-top: 1rem;
+        justify-content: center; }
+        body main #impo .container .webdev-row .webdev-box, body main #expo .container .webdev-row .webdev-box {
+          padding: 40px;
+          background: #fff;
+          width: 34rem; }
+          body main #impo .container .webdev-row .webdev-box hr, body main #expo .container .webdev-row .webdev-box hr {
+            background-color: #45BCE9;
+            height: 5px;
+            border: none;
+            width: 20%; }
+    body main #showcase-logi {
+      padding: 80px 0; }
+      body main #showcase-logi .container .showcase-flex-logi {
+        display: flex; }
+        body main #showcase-logi .container .showcase-flex-logi .display-1 {
+          text-transform: uppercase;
+          padding: 4rem;
+          text-align: center;
+          color: whitesmoke;
+          text-transform: uppercase; }
+        body main #showcase-logi .container .showcase-flex-logi p {
+          align-self: center;
+          color: #e2e3e4;
+          text-align: justify; }
+    body main #logis {
+      padding: 80px 0; }
+      body main #logis .container .wrapper {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px; }
+        body main #logis .container .wrapper .box-1 {
+          padding: 20px;
+          grid-column: 1/2;
+          grid-row: 1/3;
+          padding: 40px; }
+          body main #logis .container .wrapper .box-1 .display-3 {
+            font-size: 2.5rem; }
+        body main #logis .container .wrapper .bk-azulfuerte {
+          background: whitesmoke;
+          color: #0d0d0e; }
+        body main #logis .container .wrapper .box-2 {
+          padding: 20px;
+          grid-column: 2/6;
+          grid-row: 1/3;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center; }
+          body main #logis .container .wrapper .box-2 .display-3 {
+            font-size: 2.5rem; }
+          body main #logis .container .wrapper .box-2 img {
+            max-width: 100%; }
+        body main #logis .container .wrapper .bk-celeste {
+          background: #2096cc;
+          color: #fff; }
+        body main #logis .container .wrapper .box-3 {
+          padding: 20px;
+          grid-column: 1/4;
+          grid-row: 3/4; }
+          body main #logis .container .wrapper .box-3 .display-3 {
+            font-size: 2.5rem; }
+        body main #logis .container .wrapper .bk-marron {
+          background: tomato; }
+        body main #logis .container .wrapper .box-4 {
+          padding: 20px;
+          grid-column: 4/6;
+          grid-row: 3/4; }
+          body main #logis .container .wrapper .box-4 .display-3 {
+            font-size: 2.5rem; }
+        body main #logis .container .wrapper .bk-green {
+          background: teal;
+          color: #fff; }
+    body main #contact {
+      padding-top: 50px;
+      margin-bottom: 30px;
+      text-align: center;
+      color: #e2e3e4; }
+      body main #contact .container form {
+        width: 40%;
+        margin: 0 auto;
+        text-align: left; }
+        body main #contact .container form .form-group {
+          margin-bottom: 1rem; }
+          body main #contact .container form .form-group label {
+            display: inline-block;
+            margin-bottom: 0.5rem; }
+          body main #contact .container form .form-group .form-control {
+            display: block;
+            width: 100%;
+            padding: 0.375rem 0.7rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #000;
+            background-color: #F2F3F6;
+            background-clip: padding-box;
+            border: 1px solid #F2F3F6;
+            border-radius: 0.25rem; }
+        body main #contact .container form .btn {
           display: inline-block;
-          margin-bottom: 0.5rem; }
-        body main #contact .container form .form-group .form-control {
-          display: block;
-          width: 100%;
-          padding: 0.375rem 0.7rem;
-          font-size: 1rem;
-          line-height: 1.5;
-          color: #000;
-          background-color: #F2F3F6;
-          background-clip: padding-box;
-          border: 1px solid #F2F3F6;
-          border-radius: 0.25rem; }
-      body main #contact .container form .btn {
-        display: inline-block;
-        font-size: 15px;
-        padding: 15px 50px;
-        cursor: pointer;
-        font-weight: bold;
-        letter-spacing: 1px;
-        border-radius: 30px;
-        margin-top: 50px; }
-      body main #contact .container form .btn-light {
-        background: #45BCE9;
-        border: 1px solid #fff;
-        color: #fff; }
-      body main #contact .container form .btn-light:hover {
-        background: #fff;
-        border: 1px solid #45BCE9;
-        color: #45BCE9; }
+          font-size: 15px;
+          padding: 15px 50px;
+          cursor: pointer;
+          font-weight: bold;
+          letter-spacing: 1px;
+          border-radius: 30px;
+          margin-top: 50px; }
+        body main #contact .container form .btn-light {
+          background: #45BCE9;
+          border: 1px solid #fff;
+          color: #fff; }
+        body main #contact .container form .btn-light:hover {
+          background: #fff;
+          border: 1px solid #45BCE9;
+          color: #45BCE9; }
 
+/*Media Querys*/
 /*Media Qry para tablets */
 @media (max-width: 768px) {
   body header .navbar .cont-nav {
